@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+body {
+  background-image: url('images/DSC05050 copy.jpg')
+}
+
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  color: #E56B6F;
+}
+h2{
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  margin-top: 15px;
+  color: #1A659E;
+}
+
+.oui {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  margin-top: 15px;
+  padding-top: 20px;
+  color: #E56B6F;
+}
+
+p, a{
+font-family:'montserrat', sans-serif;
+font-weight: bold;
+font-size: 14px;
+}
+a{
+  font-family: 'Poppins', sans-serif;
+  color: #1A659E;
+}
+p{
+  line-height: 30px;
+  text-align: center;
+  padding-top: 20px;
+  color: #004E89;
+  margin-bottom: 60px;
+}
+.list {
+  color: #E56B6F;
+}
+
+.para {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: #004E89;
+  margin-bottom: 5px;
+}
+
+#button-website{
+  text-decoration: none;
+  color: #FFFFFF ;
+  padding: 20px;
+  background-color: #E56B6F;
+  border-radius: 9px;
+}
+.card {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 10px;
+  margin: 10px 0px;
+  text-align: center
+}
+.card1 {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding-bottom: 10px;
+  padding-top: 10px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 10px;
+  margin: 10px, 0px, 40px, 0px;
+  text-align: center
+}
+
+.card2 {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding-top: 0px;
+  padding-bottom: 10px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 20px;
+  margin-bottom: 10px;
+  text-justify: center
+}
+
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+a:hover{
+  color: #1A659E;
+}
+
+#button-website:hover{
+  background-color:#1A659E;
+  color: #FFFFFF;
+}
+
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 350px;
+  }
+}
